@@ -23,6 +23,128 @@
         </nav>
     </section>
     </header>
+    <main>
+        <section id="crear">
+            <h2>Crear tarea</h2>
+            <p>
+                En esta sección podrás registrar nuevas tareas en el sistema. 
+                <strong>Recuerda</strong> completar todos los campos marcados como obligatorios.
+            </p>
+
+            <p>
+                Este formulario permite gestionar tareas de forma 
+                <em>rápida</em> y <u>sencilla</u>, ideal para practicar operaciones CRUD.
+            </p>
+
+            <p>
+                Se puede resaltar información importante con etiquetas como 
+                <mark>mark</mark>. 
+            </p>
+
+            <form>
+                <label>
+                    Nombre de la tarea:
+                    <input type="text" required>
+                </label>
+                <br><br>
+
+                <label>
+                    Prioridad:
+                    <input type="number" min="1" max="5">
+                </label>
+                <br><br>
+
+                <label>
+                    Fecha de creación:
+                    <input type="date">
+                </label>
+                <br><br>
+
+                <label>
+                    Descripción:
+                    <textarea rows="4"></textarea>
+                </label>
+                <br><br>
+
+                <button type="submit">Crear tarea</button>
+            </form>
+
+            <aside>
+                <h3>Tip útil</h3>
+                <p>Las tareas creadas hoy aparecen marcadas con la fecha 
+                    <time datetime="2024-02-15">15/02/2024</time>.
+                </p>
+            </aside>
+        </section>
+
+        <section id="listado">
+            <h2>Listar tarea</h2>
+            <article>
+                <h3>Tarea destacada</h3>
+                <p>
+                    Esta es una tarea de ejemplo. 
+                    Aquí se muestra cómo un <span>fragmento importante</span> del texto 
+                    puede resaltarse con <code>span</code>.
+                </p>
+            </article>
+            <table border="1">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Prioridad</th>
+                    <th>Fecha</th>
+                    <th>Acciones</th>
+                </tr>
+
+                <tr>
+                    <td>Tarea 1</td>
+                    <td>3</td>
+                    <td><time datetime="2024-01-10">10/01/2024</time></td>
+                    <td>
+                        <button>Actualizar</button>
+                        <a href="#eliminar">Eliminar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Tarea 2</td>
+                    <td>5</td>
+                    <td><time datetime="2024-02-02">02/02/2024</time></td>
+                    <td>
+                        <button>Actualizar</button>
+                        <a href="#eliminar">Eliminar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Tarea 3</td>
+                    <td>1</td>
+                    <td><time datetime="2024-02-10">10/02/2024</time></td>
+                    <td>
+                        <button>Actualizar</button>
+                        <a href="#eliminar">Eliminar</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia del sistema</h2>
+
+            <h3>Audio de ejemplo</h3>
+            <audio src="media/Rick.mp3" controls></audio>
+
+            <h3>Video de ejemplo</h3>
+            <video src="media/elRegalo.mp4" controls width="700px"></video>
+
+            <h3>Imagen ilustrativa</h3>
+            <img src="media/jesus.png" alt="Imagen demostración" width="500">
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca del sistema</h2>
+            <p>Este proyecto muestra cómo aplicar etiquetas semánticas, listas, tablas y multimedia.</p>
+        </section>
+    </main>
 
     
 </body>
