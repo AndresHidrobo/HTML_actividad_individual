@@ -113,8 +113,8 @@ No describen su función por sí mismas.
 ### `<base>`
 Define la URL base para todos los enlaces relativos de la página.  
 Si el `<base>` es:
-<base href="https://ejemplo.com/">
-Entonces: <a href="archivo.html">
+````<base href="https://ejemplo.com/">
+Entonces: <a href="archivo.html">`
 apunta a: https://ejemplo.com/archivo.html
   
 <abbr>:
@@ -137,4 +137,4 @@ Referencias:
 MDN Web Docs – https://developer.mozilla.org/
 W3Schools – https://www.w3schools.com/
 HTML Living Standard – https://html.spec.whatwg.org/
-Apuntes de clase y material docente.
+Apuntes de clase y material docente.````
