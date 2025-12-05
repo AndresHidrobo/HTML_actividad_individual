@@ -110,23 +110,23 @@ No describen su función por sí mismas.
 
 ## Enfoque en etiquetas poco comunes
 
-### `<base>`
+### <base>
 Define la URL base para todos los enlaces relativos de la página.  
 Si el `<base>` es:
 `<base href="https://ejemplo.com/">`
 `Entonces: <a href="archivo.html">`
 apunta a: `https://ejemplo.com/archivo.html`
   
-<abbr>:
+### <abbr>:
 Permite mostrar el significado de una abreviatura.
 `<abbr title="Create, Read, Update, Delete">CRUD</abbr>`
 Al pasar el cursor, se muestra el significado completo.
 
-<time>:
+### <time>:
 Representa una fecha u hora, útil para máquinas, buscadores y accesibilidad.
 `<time datetime="2024-02-10">10 de febrero de 2024</time>`
 
-Multimedia (audio, video)
+### Multimedia (audio, video)
 Ventajas:
 Se reproducen dentro de la página (no requieren aplicaciones externas).
 Permiten controles nativos (play, pausa, volumen).
